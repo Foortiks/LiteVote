@@ -1,0 +1,25 @@
+messages:
+  voteNotActive: "#FF6000▶ &fНа данный момент голосование не проводиться" # Длительность голосования в секундах (5 минут)
+  voteIsActive: "#FF6000▶ &fГолосование уже началось!"
+  voteNoActive: "#FF6000▶ &fНету активных голосований!"
+  voteOnlyPlayer: "#FF6000▶ &fКоманда доступна только игрокам!"
+  noVotes: "#FF6000▶ &fНе было голосов."
+  voteCast: "#11FF00▶ &fВы проголосовали за {option}."
+  voteAlreadyCast: "#FF6000▶ &fВы уже проголосовали за этот ивент."
+  voteSelected: "#11FF00▶ &fВаш выбор"
+  currentVotes: "&7Текущие голоса: {votes}"
+
+start:
+  voteStarted:
+    - "#FF6000&n▋&f"
+    - "#FF6000&n▋&f &fГолосование Началось!"
+    - "#FF6000&n▋&f Проголосовать #FF5000/vote"
+    - "#FF6000▋&f"
+  sound:
+    type: BLOCK_NOTE_BLOCK_PLING
+    volume: 1.0
+    pitch: 1.0
+
+settings:
+  vote-duration: 60 # Длительность голосования в секундах
+  command-delay: 60  # Задержка выполнения команды в секундах

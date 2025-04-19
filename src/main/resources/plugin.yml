@@ -1,0 +1,16 @@
+name: LiteVote
+version: '1.2'
+main: ea.foort.litevote.LiteVote
+api-version: '1.16'
+author: Foort, Mitriyf
+commands:
+  vote:
+  startvote:
+  stopvote:
+permissions:
+  vote.reload:
+    default: op
+  voteplugin.vote:
+    default: true
+  voteplugin.admin:
+    default: op

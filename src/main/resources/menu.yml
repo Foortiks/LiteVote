@@ -1,0 +1,57 @@
+menu:
+  title: "Голосование за ивенты"
+  size: 27
+
+votes:
+  default:
+    material: LODESTONE
+    slot: 10
+    name: "#9FABBB₍ #A4B1C1О#A9B6C7б#AEBCCDы#B4C1D4ч#B9C7DAн#BECCE0ы#C3D2E6й #BECCE0т#B9C7DAа#B4C1D4й#AEBCCDн#A9B6C7и#A4B1C1к #9FABBB₎"
+    lore:
+      - "&7Нажмите, чтобы проголосовать за Этот Ивент"
+    command: "bair start default"
+    win-message:
+      - "#9FABBB&n▋&f"
+      - "#9FABBB&n▋&f           #9FABBB₍ #A4B1C1О#A9B6C7б#AEBCCDы#B4C1D4ч#B9C7DAн#BECCE0ы#C3D2E6й #BECCE0т#B9C7DAа#B4C1D4й#AEBCCDн#A9B6C7и#A4B1C1к #9FABBB₎"
+      - "#9FABBB&n▋&f     Появиться через: #C3D2E61 минуту"
+      - "#9FABBB▋&f"
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  mirnsth:
+    material: LIGHT_BLUE_SHULKER_BOX
+    slot: 12
+    name: "#00AABB₍ #00B4C5М#00BDD0и#00C7DAр#00D0E5н#00DAEFы#00E3FAй #00E3FAт#00DAEFа#00D0E5й#00C7DAн#00BDD0и#00B4C5к #00AABB₎"
+    lore:
+      - "&7Нажмите, чтобы проголосовать за Этот Ивент"
+    command: "bair start mirnsth"
+    win-message:
+      - "#00AABB&n▋&f"
+      - "#00AABB&n▋&f           #00AABB₍ #00B4C5М#00BDD0и#00C7DAр#00D0E5н#00DAEFы#00E3FAй #00E3FAт#00DAEFа#00D0E5й#00C7DAн#00BDD0и#00B4C5к #00AABB₎"
+      - "#00AABB&n▋&f     Появиться через: #00E3FA1 минуту"
+      - "#00AABB▋&f"
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  experience:
+    material: RESPAWN_ANCHOR
+    slot: 14
+    name: "#0BB440₍ #0CBF37О#0DC92Eп#0ED425ы#0EDF1Bт#0FEA12н#10F409ы#11FF00й #10F409т#0FEA12а#0EDF1Bй#0ED425н#0DC92Eи#0CBF37к #0BB440₎"
+    lore:
+      - "&7Нажмите, чтобы проголосовать за Этот Ивент"
+    command: "bair start experience"
+    win-message:
+      - "#0BB440&n▋&f"
+      - "#0BB440&n▋&f           #0BB440₍ #0CBF37О#0DC92Eп#0ED425ы#0EDF1Bт#0FEA12н#10F409ы#11FF00й #10F409т#0FEA12а#0EDF1Bй#0ED425н#0DC92Eи#0CBF37к #0BB440₎"
+      - "#0BB440&n▋&f     Появиться через: #11FF001 минуту"
+      - "#0BB440▋&f"
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+  nether:
+    material: ENDER_CHEST
+    slot: 16
+    name: "#FF0000₍ #FF0F00А#FF1E00д#FF2C00с#FF3B00к#FF4A00и#FF5900й #FF5900т#FF4A00а#FF3B00й#FF2C00н#FF1E00и#FF0F00к #FF0000₎"
+    lore:
+      - "&7Нажмите, чтобы проголосовать за Этот Ивент"
+    command: "bair start nether"
+    win-message:
+      - "#FF0000&n▋&f"
+      - "#FF0000&n▋&f           #FF0000₍ #FF0F00А#FF1E00д#FF2C00с#FF3B00к#FF4A00и#FF5900й #FF5900т#FF4A00а#FF3B00й#FF2C00н#FF1E00и#FF0F00к #FF0000₎"
+      - "#FF0000&n▋&f     Появиться через: #FF59001 минуту"
+      - "#FF0000▋&f"
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
