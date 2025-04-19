@@ -2,7 +2,7 @@ name: LiteVote
 version: '1.2'
 main: ea.foort.litevote.LiteVote
 api-version: '1.16'
-author: Foort, Mitriyf
+author: Foort
 commands:
   vote:
   startvote:
