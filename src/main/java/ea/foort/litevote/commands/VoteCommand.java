@@ -16,6 +16,11 @@ public class VoteCommand implements CommandExecutor {
     }
 
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        if (!sender.hasPermission("litevote.vote")) {
+            sender.sendMessage(Color.color("&cУ вас нет прав для запуска голосования."));
+            return true;
+        }
+
         if (!(sender instanceof Player player)) {
             sender.sendMessage(Color.color(voteManager.getConfigManager().getMainConfig().getString("messages.voteOnlyPlayer")));
             return true;
