@@ -14,6 +14,11 @@ public class StopVoteCommand implements CommandExecutor {
     }
 
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        if (!sender.hasPermission("litevote.admin")) {
+            sender.sendMessage(Color.color("&cУ вас нет прав для использования команды!"));
+            return true;
+        }
+
         if (!voteManager.isActive()) {
             sender.sendMessage(Color.color(voteManager.getConfigManager().getMainConfig().getString("messages.voteNoActive")));
             return true;
