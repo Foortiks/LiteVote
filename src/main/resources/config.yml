@@ -23,3 +23,7 @@ start:
 settings:
   vote-duration: 60 # Длительность голосования в секундах
   command-delay: 60  # Задержка выполнения команды в секундах
+
+autostart:
+  enable: true # true/false включить/выключить авто запуск через время
+  timer: 3600 # в секундах
